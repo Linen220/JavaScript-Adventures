@@ -1,18 +1,32 @@
-var maxProfit = function(prices) {
-  
-    let maxProfit = 0;
-    let minBuy = prices[0];
+const listTask = document.querySelector('#list-task');
+const inputBox = document.querySelector('#input-box');
 
-    for (let i = 1; i < prices.length; i++) {
-        minBuy = Math.min(minBuy, prices[i])
-        maxProfit = Math.max(maxProfit, prices[i] - minBuy );
+
+function addTask() {
+    if ( inputBox.value === '' ) {
+        alert('Enter Some Data')
+    } else {
+        let task = document.createElement('li');
+        task.innerText = inputBox.value;
+        listTask.append(task);
     }
+    inputBox.value = '';
+    saveTask();
+}
 
-    return maxProfit;
-};
+listTask.addEventListener('click', () => {
+    
+});
 
 
-// const prices = [7,1,5,3,6,4];
-const prices = [2,4,1];
 
-console.log(maxProfit(prices));
+//* Local Storage - útil para mantener la información despues de actualizar el navegador
+function saveTask() {
+    localStorage.setItem('data', listTask.innerHTML);
+}
+
+function showTask() {
+    listTask.innerHTML = localStorage.getItem('data');
+}
+
+showTask();
