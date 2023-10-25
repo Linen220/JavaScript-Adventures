@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background: linear-gradient(185deg, #3b3ee3, #045610);
+    background: linear-gradient(185deg, #150050, #FB2576);
     min-height: 100vh;
     padding: 10px;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .todo-app:hover {
-    box-shadow: 1px 2px 2px 3px black;
+    box-shadow: 1px 2px 2px 3px #3F0071;
 }
 
 .row {
@@ -64,12 +64,12 @@ button {
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
-    background-color: #0a9c11;
+    background-color: #3F0071;
     border-radius: 10px;
 }
 
 button:hover {
-    background-color: #068051;
+    background-color: #FB2576;
 }
 
 ul li {
@@ -118,7 +118,8 @@ ul li span {
 }
 
 ul li span:hover {
-    background: #f3f3f3;
+    background: #DB005B;
+    color: white;
 }
 
 @media (max-width: 768px) {
@@ -128,7 +129,7 @@ ul li span:hover {
     }
 
     input {
-        padding-right: 0;
+        padding-inline: 0;
     }
 
     button {
