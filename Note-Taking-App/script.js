@@ -38,10 +38,27 @@ addBtn.addEventListener('click', () => {
     const trash = note.querySelector('.trash');
     const textarea = note.querySelector('textarea');
 
+    save.addEventListener( 'click', saveNotes );
+    textarea.addEventListener('input', saveNotes);
 
     app.append(note);
 });
 
+function saveNotes() {
+    //* 'document.querySelectorAll', devolvera una colección de nodos(una lista similar a un arreglo), pero no un arreglo real.
+    const notes = document.querySelectorAll('.note textarea');
 
+    const data = [...notes].map( note => note.value ); 
+    // const data = Array.from(notes).map( note => note.value ); //? Otra manera
+
+    console.log(data);
+
+    if ( data.length === 0 ) {
+        localStorage.removeItem('notes');
+    } else {
+        localStorage.setItem('notes', JSON.stringify(data));
+    }
+
+}
 
 
