@@ -8,8 +8,8 @@ addBtn.addEventListener('click', () => {
     //* METODO 1:
     note.innerHTML = `
         <div class="tool">
-            <i class="fa-solid fa-floppy-disk"></i>    
-            <i class="fa-solid fa-trash"></i>
+            <i class="save fa-solid fa-floppy-disk"></i>    
+            <i class="trash fa-solid fa-trash"></i>
         </div>
         <textarea>
         </textarea>
@@ -32,5 +32,16 @@ addBtn.addEventListener('click', () => {
 
     // tool.append(iconSave, iconDelete);
     // note.append(tool, text);
+
+
+    const save = note.querySelector('.save');
+    const trash = note.querySelector('.trash');
+    const textarea = note.querySelector('textarea');
+
+
     app.append(note);
 });
+
+
+
+
