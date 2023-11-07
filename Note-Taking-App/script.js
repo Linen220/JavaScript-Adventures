@@ -1,7 +1,9 @@
 const addBtn = document.querySelector('#addBtn');
 const app = document.querySelector('#main');
 
-addBtn.addEventListener('click', () => {
+addBtn.addEventListener('click', addNote);
+
+function addNote() {
     let note = document.createElement('div');
     note.classList.add('note');
 
@@ -39,10 +41,14 @@ addBtn.addEventListener('click', () => {
     const textarea = note.querySelector('textarea');
 
     save.addEventListener( 'click', saveNotes );
-    textarea.addEventListener('input', saveNotes);
+    textarea.addEventListener( 'input', saveNotes );
+    trash.addEventListener( 'click', () => {
+        note.remove();
+        saveNotes();
+    });
 
     app.append(note);
-});
+}
 
 function saveNotes() {
     //* 'document.querySelectorAll', devolvera una colección de nodos(una lista similar a un arreglo), pero no un arreglo real.
@@ -51,14 +57,28 @@ function saveNotes() {
     const data = [...notes].map( note => note.value ); 
     // const data = Array.from(notes).map( note => note.value ); //? Otra manera
 
-    console.log(data);
-
     if ( data.length === 0 ) {
         localStorage.removeItem('notes');
     } else {
         localStorage.setItem('notes', JSON.stringify(data));
     }
+}
+
+function loadNotes() {
+    const lsNotes = JSON.parse(localStorage.getItem('notes'));
+
+    if ( lsNotes !== null ) {
+        lsNotes.forEach( noteText => {
+            addNote();
+            const notes = document.querySelectorAll('.note textarea');
+            const lastNode = notes[notes.length - 1];
+            console.log(notes)
+            lastNode.value = noteText;
+        });
+    } else {
+        addNote();
+    }
 
 }
 
-
+loadNotes();
