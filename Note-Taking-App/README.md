@@ -12,9 +12,9 @@
 
 <div align="left">
 <h3>Desktop Screen</h3>
-<img src="./assets/img/screenshot_1.png" width="600" height="400"/>
+<img src="./img/screenshot_1.png" width="600" height="400"/>
 <h3>Mobile Screen</h3>
-<img src="./assets/img/screenshot_2.png" width="200" height="400"/>
+<img src="./img/screenshot_2.png" width="200" height="400"/>
 </div>
 
 <br>
