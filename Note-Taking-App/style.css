@@ -80,3 +80,9 @@ main {
 .note textarea:focus {
     outline: none;
 }
+
+@media ( max-width: 1024px ) {
+    main {
+        padding-top: 70px;
+    }
+}
