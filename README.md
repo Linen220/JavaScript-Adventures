@@ -7,4 +7,4 @@ Welcome to JavaScript-Adventures! This repository is a collection of my JavaScri
 |  #  | Samples                                                                                                                      |
 | :-: | :--------------------------------------------------------------------------------------------------------------------------- |
 | 01  | [To Do List](https://github.com/Linen220/JavaScript-Adventures/tree/main/To-Do-List-App)                                     |
-| 02  | [Note Taking](https://github.com/Linen220/JavaScript-Adventures/tree/main/Note-Taking-App)                                    |
+| 02  | [Note Taking](https://github.com/Linen220/JavaScript-Adventures/tree/main/Note-Taking-App)                                   |
