@@ -2,7 +2,7 @@
 
 <br>
 
-## Link
+### Link
 
 - [Live Site](https://linen220-note-taking-app.netlify.app/)
 
