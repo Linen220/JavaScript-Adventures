@@ -11,7 +11,7 @@
 ### Screenshot
 
 <div align="left">
-<h3>Desktop Screen</h3>
+<h4>Desktop Screen</h4>
 <img src="./img/screenshot_1.png" width="600" height="400"/>
 </div>
 
