@@ -1,14 +1,14 @@
-# Password-Strength-Checker
+## Password-Strength-Checker
 
 <br>
 
-## Link
+### Link
 
 - [Live Site](https://linen220-password-strength-checker.netlify.app/)
 
 <br>
 
-## Screenshot
+### Screenshot
 
 <div align="left">
 <h3>Desktop Screen</h3>
@@ -17,7 +17,7 @@
 
 <br>
 
-## Built with
+### Built with
 
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)   
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -25,7 +25,7 @@
 
 <br>
 
-## Contact Me
+### Contact Me
 
 - Twitter - [@RondonFernand0](https://twitter.com/RondonFernand0)
 
