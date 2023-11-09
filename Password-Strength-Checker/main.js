@@ -11,10 +11,13 @@ password.addEventListener('input', function() {
         strengthValue = '';
     } else if ( passwordValue.length < 6 ) {
         strengthValue = 'Weak';
+        message.style.color = '#FF8080'
     } else if ( passwordValue.length < 10) {
         strengthValue = 'Medium';
+        message.style.color = '#E5D283'
     } else {
         strengthValue = 'Strong';
+        message.style.color = '#A2FF86'
     }
 
     //? textContent: devuelve todo el contenido de texto dentro del elemento, 

@@ -6,7 +6,7 @@
 
 body {
     min-height: 100vh;
-    background-color: #29214b;
+    background-color: #262A56;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +27,10 @@ body {
     border-radius: 5px;
     font-size: 1rem;
     background-color: transparent;
+}
+
+.input-box input::placeholder {
+    color: #fff;
 }
 
 button {
@@ -53,4 +57,11 @@ button img {
     color: #fff;
     font-size: 1rem;
     display: none;
+    font-weight: bold;
+}
+
+@media ( max-width: 425px ) {
+    .input-box {
+        width: 280px;
+    }
 }
