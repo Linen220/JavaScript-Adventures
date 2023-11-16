@@ -4,7 +4,7 @@
 
 ### Link
 
-- [Live Site](https://linen220-to-do-list-app.netlify.app/)
+- [Live Site](https://linen220-random-password-generator.netlify.app/)
 
 <br>
 
