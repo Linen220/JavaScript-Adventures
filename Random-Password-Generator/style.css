@@ -10,14 +10,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #d4d4d4;
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 
 .container {
     width: 100%;
     max-width: 500px;
     border-radius: 5px;
-    background-color: #ffff;
+    background-color: #06283D;
     padding: 40px 30px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, .1);
 }
@@ -27,8 +27,8 @@ body {
     font-weight: bold;
     margin-bottom: 36px;
     text-align: center;
-    color: #333333;
-    text-decoration: underline;
+    color: #47B5FF;
+    text-transform: uppercase;
 }
 
 .inputBox {
@@ -53,7 +53,7 @@ body {
     border-radius: 4px;
     font-size: 1rem;
     font-weight: 700;
-    background-color: #f2f2f2;
+    background-color: #DFF6FF;
     color: #333333;
     outline: none;
 }
@@ -71,6 +71,11 @@ input[type="range"] {
 
 .row p {
     font-weight: 700;
+    color: #DFF6FF;
+}
+
+.row label {
+    color: #DFF6FF;
 }
 
 input[type="checkbox"] {
@@ -84,7 +89,7 @@ input[type="checkbox"] {
     border-radius: 4px;
     font-weight: bold;
     color: #ffffff;
-    background-color: #3162cb;
+    background-color: #1363DF;
     cursor: pointer;
     margin-top: 10px;
     transition: background-color .3s ease;
@@ -96,4 +101,14 @@ input[type="checkbox"] {
 
 #sliderValue {
     margin-right: 8px;
+    color: #DFF6FF;
+}
+
+
+@media (max-width: 500px ) {
+    .container {
+        max-width: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
