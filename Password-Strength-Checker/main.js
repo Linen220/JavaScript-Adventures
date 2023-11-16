@@ -21,7 +21,7 @@ password.addEventListener('input', function() {
     }
 
     //? textContent: devuelve todo el contenido de texto dentro del elemento, 
-    //? incluyendo el texto oculto y no representado ( display:none ).
+    //? incluyendo el texto oculto y no represetado ( display:none ).
     strength.textContent = strengthValue;
     message.style.display = 'block';        // Display the message
 });
