@@ -6,7 +6,7 @@
 
 body {
     font-family: Helvetica, sans-serif;
-    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+    background: linear-gradient(to right, #9796f0, #fbc7d4);
 }
 
 .container {
@@ -83,4 +83,31 @@ button {
     margin-bottom: 10px;
 }
 
+@media ( max-width: 650px ) {
+    .container {
+        width: 90%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .result-container {
+        padding-bottom: 6px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    label, button, input[type="text"] {
+        font-size: .9rem;
+    }
+
+    .item__title {
+        font-size: 1rem;
+    }
+    
+    .item__info {
+        font-size: .9rem;
+    }
+}
 
