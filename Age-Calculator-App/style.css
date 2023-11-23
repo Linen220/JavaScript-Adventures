@@ -6,7 +6,7 @@
 
 body {
     font-family: Helvetica, sans-serif;
-    background: linear-gradient(to right, #aa7e66, #feb47b);
+    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
 }
 
 .container {
@@ -21,6 +21,8 @@ body {
 .title {
     text-align: center;
     color: #333;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .form-group {
@@ -45,7 +47,7 @@ input[type="text"] {
 button {
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #aa7e66;
+    background-color: #6554AF;
     border: none;
     outline: none;
     border-radius: 4px;
@@ -66,9 +68,14 @@ button {
     margin-top: 10px;
 }
 
+.result__item {
+    margin-bottom: 20px;
+}
+
 .item__title {
     color: #333;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 18px;
 }
 
 .item__info {
