@@ -1,10 +1,10 @@
-## Age-Calculator-Aplication
+## Age-Calculator-Application
 
 <br>
 
 ### Link
 
-- [Live Site](https://linen220-random-password-generator.netlify.app/)
+- [Live Site]()
 
 <br>
 
