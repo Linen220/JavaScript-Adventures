@@ -4,14 +4,13 @@
 
 ### Link
 
-- [Live Site]()
+- [Live Site](https://linen220-digital-piano-app.netlify.app/)
 
 <br>
 
 ### Screenshot
 
 <div align="left">
-<h4>Desktop Screen</h4>
 <img src="./img/screenshot_1.png" width="800" height="400"/>
 </div>
 
