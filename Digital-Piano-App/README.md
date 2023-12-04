@@ -12,7 +12,7 @@
 
 <div align="left">
 <h4>Desktop Screen</h4>
-<img src="./img/screenshot_1.png" width="600" height="400"/>
+<img src="./img/screenshot_1.png" width="800" height="400"/>
 </div>
 
 <br>
