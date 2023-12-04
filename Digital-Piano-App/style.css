@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: #a8caa5;
+    background-color: #D3B9FF;
 }
 
 .piano-container {
@@ -9,8 +9,8 @@ body {
 }
 
 .title {
-    margin-top: 0;
     padding: 0;
+    color: #6432CE;
 }
 
 button {
@@ -30,5 +30,4 @@ button {
 .black-key {
     background-color: black;
     color: aliceblue;
-
 }
