@@ -5,7 +5,7 @@ Welcome to JavaScript-Adventures! This repository is a collection of my JavaScri
 ## Projects
 
 |  #  | Project                                                                                                                      | Live Preview |
-| :-: | :--------------------------------------------------------------------------------------------------------------------------- |
+| :-: | --------------------------------------------------------------------------------------------------------------------------- |
 | 01  | [To Do List](https://github.com/Linen220/JavaScript-Adventures/tree/main/To-Do-List-App)                                     | [Preview](https://linen220-to-do-list-app.netlify.app/) 
 | 02  | [Note Taking](https://github.com/Linen220/JavaScript-Adventures/tree/main/Note-Taking-App)                                   | [Preview](https://linen220-to-do-list-app.netlify.app/)   
 | 03  | [Password Strength Checker](https://github.com/Linen220/JavaScript-Adventures/tree/main/Password-Strength-Checker)           | [Preview](https://linen220-to-do-list-app.netlify.app/)  
