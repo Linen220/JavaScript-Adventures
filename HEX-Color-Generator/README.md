@@ -4,7 +4,7 @@
 
 ### Link
 
-- [Live Site]()
+- [Live Site](https://linen220-hex-color-generator.netlify.app/)
 
 <br>
 
