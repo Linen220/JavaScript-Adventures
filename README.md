@@ -14,3 +14,4 @@ Welcome to JavaScript-Adventures! This repository is a collection of my JavaScri
 | 06  | [Random Paragraph Generator](https://github.com/Linen220/JavaScript-Adventures/tree/main/Random-Paragraph-Generator)         |
 | 07  | [Digital Piano Application](https://github.com/Linen220/JavaScript-Adventures/tree/main/Digital-Piano-App)                   |
 | 08  | [Background Color Changer](https://github.com/Linen220/JavaScript-Adventures/tree/main/Background-Color-Changer)             |
+| 09  | [HEX Color Generator](https://github.com/Linen220/JavaScript-Adventures/tree/main/HEX-Color-Generator)                       |
