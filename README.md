@@ -15,3 +15,4 @@ Welcome to JavaScript-Adventures! This repository is a collection of my JavaScri
 | 07  | [Digital Piano Application](https://github.com/Linen220/JavaScript-Adventures/tree/main/Digital-Piano-App)                   | [Preview](https://linen220-digital-piano-app.netlify.app/)  
 | 08  | [Background Color Changer](https://github.com/Linen220/JavaScript-Adventures/tree/main/Background-Color-Changer)             | [Preview](https://linen220-background-color-changer.netlify.app/)  
 | 09  | [HEX Color Generator](https://github.com/Linen220/JavaScript-Adventures/tree/main/HEX-Color-Generator)                       | [Preview](https://linen220-hex-color-generator.netlify.app/)  
+| 10  | [Vowel Counter Application](https://github.com/Linen220/JavaScript-Adventures/tree/main/Vowel-Counter-App)                   | [Preview](https://linen220-vowel-counter-app.netlify.app/)  
