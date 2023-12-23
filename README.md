@@ -8,7 +8,7 @@ Welcome to JavaScript-Adventures! This repository is a collection of my JavaScri
 ![JavaScript](https://img.shields.io/badge/Javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
 ![React](https://img.shields.io/badge/-React-%23404d59?style=for-the-badge&logo=react)&nbsp;
 
-## Projects
+### Projects
 
 |  #  | Project                                                                                                                      | Live Preview |
 | :-: | ---------------------------------------------------------------------------------------------------------------------------  | ------------------------------------------------
