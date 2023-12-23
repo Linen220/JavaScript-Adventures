@@ -1,7 +1,7 @@
 # JavaScript-Adventures 🚀
 Welcome to JavaScript-Adventures! This repository is a collection of my JavaScript projects, ranging from web applications and games to utility scripts and coding experiments. 
 
-#### Tools used in Samples:
+### Tools used in Samples:
 
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3)&nbsp;
